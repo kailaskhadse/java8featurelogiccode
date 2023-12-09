@@ -1,0 +1,18 @@
+package com.streamApi;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class DemoStreamapi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Integer>list=Arrays.asList(55,4,6,9,8,55);
+		int max=list.stream().max(Integer::compare).get();
+		System.out.println("Maximum num: "+max);
+		int min=list.stream().min(Integer::compare).get();
+		System.out.println("Minimmum num: "+min);
+
+	}
+
+}

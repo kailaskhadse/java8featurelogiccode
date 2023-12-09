@@ -1,0 +1,15 @@
+package Task;
+
+public class CaseInsensitiveCounting extends CharacterFrequencyCounterBase implements CharacterFrequencyCountable {
+	public void caseInSensitiveCounting(){
+		 
+	 }
+
+	@Override
+	public void countCharacterFrequencies(String s) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+}

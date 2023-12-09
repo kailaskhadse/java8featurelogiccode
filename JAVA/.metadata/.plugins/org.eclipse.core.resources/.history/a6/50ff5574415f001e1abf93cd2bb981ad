@@ -1,0 +1,15 @@
+package Task;
+
+import java.util.*;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter given string which character you count");
+		String s=sc.next();
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package Task;
+
+public class CharacterFrequencyCounterBase {
+ public void caseSensitiveCounting(){
+	 
+ }
+public void caseInSensitiveCounting(){
+	 
+ }
+
+}

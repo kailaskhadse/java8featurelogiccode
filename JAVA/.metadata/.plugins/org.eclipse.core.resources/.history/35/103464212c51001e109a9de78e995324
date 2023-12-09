@@ -1,0 +1,13 @@
+package com.cjc;
+
+import java.util.*;
+import java.util.stream.Collectors; 
+public class Test {
+	
+		public static void main(String args[])
+		{
+		List<Integer> list=Arrays.asList(10,5,6,8,12);
+		list.stream().map(x ->x*x).collect(Collectors.toList()).forEach(x->System.out.println(x));
+		}
+
+}

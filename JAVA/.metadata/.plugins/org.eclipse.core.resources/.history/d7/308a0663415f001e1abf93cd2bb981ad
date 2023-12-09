@@ -1,0 +1,13 @@
+package Task;
+
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		String s="Enter String";
+		Scanner sc = new Scanner(s);
+
+	}
+
+}

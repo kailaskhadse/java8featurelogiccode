@@ -1,0 +1,9 @@
+package Task;
+
+public class CaseSensitiveCounting extends CharacterFrequencyCounterBase{
+	 public void caseSensitiveCounting(){
+		 
+	 }
+
+
+}

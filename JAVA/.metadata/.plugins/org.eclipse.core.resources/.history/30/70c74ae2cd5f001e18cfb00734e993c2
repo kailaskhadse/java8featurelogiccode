@@ -1,0 +1,20 @@
+package Task;
+
+import java.util.*;
+
+public class Test {
+
+		
+		public static void main(String[] args) {
+			//counting character caseinsensitive
+			CaseInsensitiveCounting c=new CaseInsensitiveCounting();
+			c.countCharacterFrequencies("Hello LogicRays Here");
+			//counting character casesensitive
+			CaseSensitiveCounting c1=new CaseSensitiveCounting();
+			c1.countCharacterFrequencies("Hello LogicRays Here");
+		
+		}
+
+	}
+
+

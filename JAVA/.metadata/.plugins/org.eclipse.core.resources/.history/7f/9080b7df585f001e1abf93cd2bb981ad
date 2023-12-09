@@ -1,0 +1,15 @@
+package Task;
+
+import java.util.*;
+
+public class Test {
+
+		
+		public static void main(String[] args) {
+			CaseInsensitiveCounting c=new CaseInsensitiveCounting();
+			c.countCharacterFrequencies("my mm is y");
+		}
+
+	}
+
+
